@@ -1,9 +1,8 @@
-import React from "react";
-import { Route, Router, Switch } from "react-router-dom";
-
-import HomeScreen from "screens/HomeScreen";
-import UserScreen from "screens/UserScreen";
-import UsersScreen from "screens/UsersScreen";
+import React from "react"
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom"
+import HomeScreen from "screens/HomeScreen"
+import UserScreen from "screens/UserScreen"
+import UsersScreen from "screens/UsersScreen"
 
 export default function App() {
   return (

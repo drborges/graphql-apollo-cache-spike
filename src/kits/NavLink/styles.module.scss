@@ -1,0 +1,13 @@
+@import "theme/_colors";
+@import "theme/_spacing";
+
+.NavLink {
+  padding: $space-md;
+  text-decoration: none;
+  color: $color-dark;
+}
+
+.active {
+  color: $color-dark;
+  background-color: $color-active;
+}

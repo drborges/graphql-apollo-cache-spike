@@ -1,0 +1,62 @@
+@import "theme/_spacing";
+
+.View {
+  display: flex;
+  width: 100%;
+}
+
+.stack {
+  flex-direction: column;
+}
+
+.padding-none {
+  padding: 0;
+}
+
+.padding-xs {
+  padding: $space-xs;
+}
+
+.padding-sm {
+  padding: $space-sm;
+}
+
+.padding-md {
+  padding: $space-md;
+}
+
+.padding-lg {
+  padding: $space-lg;
+}
+
+.padding-xl {
+  padding: $space-xl;
+}
+
+.padding-none {
+  padding: 0;
+}
+
+.margin-xs {
+  margin: $space-xs;
+}
+
+.margin-sm {
+  margin: $space-sm;
+}
+
+.margin-md {
+  margin: $space-md;
+}
+
+.margin-lg {
+  margin: $space-lg;
+}
+
+.margin-xl {
+  margin: $space-xl;
+}
+
+.width-md {
+  width: 20%;
+}
